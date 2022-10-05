@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"> </script>
+   <title>Contact</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="row">
+
+         <div class="col-1">
+            <nav class="nav flex-column">
+               <div class="nav-pills">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="photos.html">Photos</a>
+                  <a class="nav-link" href="bio.html">Bio</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
+                  <a class="nav-link active" href="contact.html">Contact</a>
+               </div>
+
+               <ul class="nav justify-content-evenly">
+                  <li class="navbar-brand" data-bs-toggle="tooltip" data-bs-title="Visit Facebook!" data-bs-placement="bottom"> 
+                     <a href="https://www.facebook.com" target="new"> 
+                     <img src="img/facebook.svg" width="16">
+                  </a> </li>
+                  <li class="navbar-brand" data-bs-toggle="tooltip" data-bs-title="Visit Twitter!" data-bs-placement="bottom"> 
+                     <a href="https://www.twitter.com" target="new"> 
+                     <img src="img/twitter.svg" width="16">
+                  </a> </li>
+                  <li class="navbar-brand" data-bs-toggle="tooltip" data-bs-title="Visit Instagram!" data-bs-placement="bottom"> 
+                     <a href="https://www.instagram.com" target="new"> 
+                     <img src="img/instagram.svg" width="16">
+                  </a> </li>
+               </ul>
+            </nav>
+         </div>
+
+         <div class="col-lg">
+            <p>
+               I can be reached via email at butl2691@vandals.uidaho.edu <br>
+               You can also fill out the form on this page, and the data will go nowhere!
+            </p>
+
+            <form>
+               <label for="emailInput" class="form-label">Email Address:</label>
+               <input required type="email" class="form-control" id="emailInput" placeholder="vand1234@vandals.uidaho.edu">
+
+               <label for="subjectInput" class="form-label">Message Subject:</label>
+               <input required type="text" class="form-control" id="subjectInput" placeholder="Subject line">
+
+               <label for="messageInput" class="form-label">Message Body:</label>
+               <textarea required class="form-control" id="messageInput" rows="4"></textarea>
+
+               <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+         </div>
+
+      </div>
+   </div>
+</body>
+
+<script src="enableTooltips.js"> </script>
+
+</html>
